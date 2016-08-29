@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: lower-roman;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+body {
+    background: url(../images/bg.png);
+}
+img {
+    vertical-align: top;
+}
+.w-slider {
+    width: 310px;
+    height: 265px;
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider {
+    /*width: 310px;*/
+    /*height: 265px;*/
+}
+.slider-main {
+    width: 620px;
+    height: 220px;
+}
+.slider-main img{
+    width: 310px;
+    height: 220px;
+}
+.slider-main-pic {
+    position: absolute;
+    width: 310px;
+    height: 220px;
+    top: 0;
+    left: 0;
+}
+.slider-ctrl {
+    padding-top: 5px;
+    text-align: center;
+}
+.slider-ctrl-con {
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    margin: 0 5px;
+    background: url("../images/icon.png") no-repeat -24px -783px;
+    text-indent: -20em;
+    overflow: hidden;
+    cursor: pointer;
+}
+.slider-ctrl-previous,
+.slider-ctrl-next {
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 25px;
+    height: 34px;
+    background: url("../images/icon.png") no-repeat 6px 0;
+    margin-top: -35px;
+    cursor: pointer;
+}
+.slider-ctrl-previous {
+    left: 0;
+}
+.slider-ctrl-next {
+    right: 0;
+    background: url("../images/icon.png") no-repeat -10px -45px;
+}
+.current {
+    background: url("../images/icon.png") no-repeat -24px -763px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
